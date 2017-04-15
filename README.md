@@ -3,7 +3,7 @@
 
 前提：得到自动卡的A\B KEY、研究出金额算法（也可以直接复制现有的）。
 
-在 https://github.com/miguelbalboa/rfid/tree/master/examples/ReadAndWrite 的基础上修改而来。
+源码是在Arduino RC522库提供的ReadAndWrite示例上编写的
 
 注释只是我简单看看库文件猜想而来的，不建议用来参考。
 
@@ -11,7 +11,7 @@
 
 因为学校水卡的A KEY是通过UID变化而来，所以注释掉了58-61行，写到了100-103行。
 
-124行开始是规定位置。
+124行开始是规定扇区位置。
 
 126行多加的blockAddr2是因为我学校水卡金额需要验证2个扇区块。
 
