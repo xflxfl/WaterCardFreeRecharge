@@ -16,3 +16,5 @@
 126行多加的blockAddr2是因为我学校水卡金额需要验证2个扇区块。
 
 190-203行是写入操作，看你要写几个扇区块。
+
+测试视频：https://www.youtube.com/watch?v=t1B8R3-n53g
